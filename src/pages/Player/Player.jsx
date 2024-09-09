@@ -34,7 +34,7 @@ useEffect(()=>{
   return (
     <div className='player'>
       <img src={back} onClick={()=>{
-         navigate(-2)
+         navigate(-1)
       }} alt="" />
       <iframe src={`https://www.youtube.com/embed/${apiPlayData.key}`}frameborder="0" allowFullScreen title='trailer' width='90%' height='90%'></iframe>
       <div className="player-info">
